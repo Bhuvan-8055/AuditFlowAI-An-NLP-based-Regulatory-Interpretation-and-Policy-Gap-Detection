@@ -1,0 +1,182 @@
+[
+  {
+    "id": "E1",
+    "policy_text": "The bank outsourced IT services without conducting vendor audits.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-AUDIT"
+  },
+  {
+    "id": "E2",
+    "policy_text": "All outsourced IT vendors are audited annually by the bank.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E3",
+    "policy_text": "The bank outsourced data processing activities but did not review vendor security controls.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-AUDIT"
+  },
+  {
+    "id": "E4",
+    "policy_text": "Vendor audits are conducted only once during onboarding.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-AUDIT"
+  },
+  {
+    "id": "E5",
+    "policy_text": "The bank performs periodic risk assessments and audits of all IT vendors.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E6",
+    "policy_text": "Critical IT services were outsourced without any internal approval process.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-GOVERNANCE"
+  },
+  {
+    "id": "E7",
+    "policy_text": "Outsourced IT services are governed by formal contracts and internal approvals.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E8",
+    "policy_text": "The bank failed to monitor vendor performance after outsourcing IT operations.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-MONITORING"
+  },
+  {
+    "id": "E9",
+    "policy_text": "Vendor performance is continuously monitored using defined KPIs.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E10",
+    "policy_text": "Sensitive customer data was shared with an IT vendor without access restrictions.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-ACCESS"
+  },
+  {
+    "id": "E11",
+    "policy_text": "Access to customer data is restricted and logged for all IT vendors.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E12",
+    "policy_text": "The bank outsourced cloud infrastructure management without evaluating security risks.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-RISK"
+  },
+  {
+    "id": "E13",
+    "policy_text": "Security risks are evaluated before outsourcing cloud services.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E14",
+    "policy_text": "The bank allowed vendors to subcontract IT services without oversight.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-GOVERNANCE"
+  },
+  {
+    "id": "E15",
+    "policy_text": "Vendor subcontracting is permitted only with prior approval and audits.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E16",
+    "policy_text": "The bank did not maintain an inventory of outsourced IT activities.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-GOVERNANCE"
+  },
+  {
+    "id": "E17",
+    "policy_text": "A complete inventory of outsourced IT services is maintained and reviewed.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E18",
+    "policy_text": "Audit findings for IT vendors were ignored by management.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-AUDIT"
+  },
+  {
+    "id": "E19",
+    "policy_text": "Audit findings for vendors are reviewed and corrective actions are enforced.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E20",
+    "policy_text": "The bank outsourced IT support but did not define incident response responsibilities.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-RISK"
+  },
+  {
+    "id": "E21",
+    "policy_text": "Incident response roles are clearly defined in vendor contracts.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E22",
+    "policy_text": "The bank failed to terminate vendor access after contract expiry.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-ACCESS"
+  },
+  {
+    "id": "E23",
+    "policy_text": "Vendor access is revoked immediately after contract termination.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E24",
+    "policy_text": "The bank outsourced IT operations without board oversight.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-GOVERNANCE"
+  },
+  {
+    "id": "E25",
+    "policy_text": "The board reviews and approves all material IT outsourcing decisions.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E26",
+    "policy_text": "The bank did not conduct exit risk assessments for IT vendors.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-RISK"
+  },
+  {
+    "id": "E27",
+    "policy_text": "Exit risk assessments are mandatory for all IT vendors.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E28",
+    "policy_text": "IT vendors were allowed unrestricted system privileges.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-ACCESS"
+  },
+  {
+    "id": "E29",
+    "policy_text": "System privileges for vendors follow least-privilege principles.",
+    "expected_violation": false,
+    "expected_control": null
+  },
+  {
+    "id": "E30",
+    "policy_text": "The bank outsourced IT services without documenting accountability.",
+    "expected_violation": true,
+    "expected_control": "CTRL-IT-GOVERNANCE"
+  }
+]

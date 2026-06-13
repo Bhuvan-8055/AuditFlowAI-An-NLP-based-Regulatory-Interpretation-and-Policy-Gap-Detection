@@ -1,0 +1,7 @@
+text,audit,privacy,vendor_risk,data_security,retention
+Vendors are not audited regularly,1,0,1,0,0
+Customer data is stored without encryption,0,1,0,1,0
+All vendors undergo annual audits as per RBI,0,0,0,0,0
+User data can be deleted on request,0,1,0,0,1
+Third party vendors access customer data,0,1,1,0,0
+Company follows industry best practices,0,0,0,0,0
