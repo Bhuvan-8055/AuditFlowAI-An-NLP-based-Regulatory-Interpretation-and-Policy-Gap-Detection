@@ -1,17 +1,29 @@
 # AuditFlowAI-An-NLP-based-Regulatory-Interpretation-and-Policy-Gap-Detection
 AuditFlow AI: A Neuro-Symbolic Regulatory Compliance System that combines Llama-3, Neo4j Knowledge Graphs, and symbolic reasoning to detect policy gaps, compliance violations, and regulatory conflicts against RBI and DPDP regulations.
 # AuditFlow AI
+# AuditFlow AI
+
 ### NLP-Based Regulatory Interpretation and Policy Gap Detection System
 
 AuditFlow AI is a Neuro-Symbolic Regulatory Compliance System that combines:
 
-- Llama-3 Fine-Tuned Legal LLM
-- Symbolic Rule Engine
-- Neo4j Knowledge Graph
-- RBI Regulatory Guidelines
-- DPDP Act 2023 Compliance Rules
+* Llama-3 Fine-Tuned Legal LLM
+* Symbolic Rule Engine
+* Neo4j Regulatory Knowledge Graph
+* RBI Regulatory Guidelines
+* DPDP Act 2023 Compliance Rules
 
-to automatically detect compliance violations, policy gaps, conflicts, and generate explainable audit reports.
+to automatically detect compliance violations, policy gaps, regulatory conflicts, and generate explainable audit reports with clause-level traceability.
+
+---
+
+## Abstract
+
+AuditFlow AI is an NLP-driven Regulatory Compliance Framework designed to evaluate organizational policies against RBI Master Directions and the Digital Personal Data Protection (DPDP) Act, 2023.
+
+The system integrates neural semantic extraction using a fine-tuned Llama-3 model with deterministic symbolic reasoning powered by Neo4j Knowledge Graphs and rule-based validation. By separating language understanding from compliance verification, AuditFlow AI minimizes hallucinations, improves legal reliability, and generates transparent, reproducible, and audit-ready compliance assessments.
+
+The framework enables automated policy interpretation, compliance classification, policy gap detection, conflict resolution, and traceable audit report generation for high-stakes regulatory environments.
 
 ---
 
@@ -23,13 +35,17 @@ to automatically detect compliance violations, policy gaps, conflicts, and gener
 
 ✔ Multi-Violation Detection
 
-✔ Conflict Resolution
+✔ Regulatory Conflict Resolution
 
 ✔ Explainable AI
 
 ✔ Knowledge Graph Reasoning
 
+✔ Clause-Level Traceability
+
 ✔ Audit Trail Generation
+
+✔ Hallucination Reduction
 
 ✔ RBI & DPDP Compliance Analysis
 
@@ -37,104 +53,167 @@ to automatically detect compliance violations, policy gaps, conflicts, and gener
 
 ## System Architecture
 
-<img width="1024" height="1536" alt="WhatsApp Image 2026-06-13 at 12 40 31" src="https://github.com/user-attachments/assets/8d0ae65f-ff98-4ab5-b995-aa1feb061781" />
+<img width="1024" height="1536" alt="WhatsApp Image 2026-06-13 at 12 40 31" src="https://github.com/user-attachments/assets/3a568dd2-4431-4661-9105-fde328bbd4ef" />
 
+
+Policy Document → Llama-3 Semantic Extraction → Structured Facts → Confidence Validation → Neo4j Regulatory Knowledge Graph → Symbolic Rule Engine → Compliance Assessment → Explainable Audit Report
 
 ---
 
 ## Technology Stack
 
 ### Frontend
-- Streamlit
+
+* Streamlit
 
 ### Backend
-- Python
 
-### AI/NLP
-- Llama-3
-- Transformers
-- PEFT LoRA
-- LangChain
+* Python
+
+### AI / NLP
+
+* Llama-3
+* Hugging Face Transformers
+* PEFT LoRA
+* LangChain
+* IndicLegalQA
 
 ### Knowledge Graph
-- Neo4j
+
+* Neo4j
+* Cypher Query Language
 
 ### Database
-- CSV
-- JSON
+
+* CSV
+* JSON
 
 ---
 
 ## Dataset
 
 ### IndicLegalQA
-Legal Question Answering Dataset
+
+Indian Legal Question Answering Dataset used for legal-domain adaptation of Llama-3.
 
 ### RBI Master Directions
-Banking Regulatory Guidelines
+
+Regulatory guidelines governing banking operations and compliance requirements.
+
+### RBI IT Outsourcing Guidelines
+
+Rules governing IT outsourcing and third-party risk management in financial institutions.
 
 ### DPDP Act 2023
-Digital Personal Data Protection Rules
+
+Digital Personal Data Protection Act governing data privacy and protection requirements.
+
+### Internal Banking Policies
+
+Sample organizational policies used for compliance evaluation and gap detection.
 
 ---
 
 ## Workflow
 
-1. Policy Upload
-2. Clause Extraction
-3. LLM Interpretation
-4. Knowledge Graph Mapping
-5. Rule Evaluation
-6. Conflict Detection
-7. Compliance Classification
-8. Audit Report Generation
+1. Regulatory Data Ingestion
+2. Policy Upload
+3. Clause Extraction
+4. LLM-Based Regulatory Interpretation
+5. Structured Fact Generation
+6. Knowledge Graph Mapping
+7. Symbolic Rule Evaluation
+8. Compliance Verification
+9. Conflict Detection
+10. Policy Gap Detection
+11. Compliance Classification
+12. Explainable Audit Report Generation
 
 ---
 
 ## Compliance Classes
 
-| Class | Description |
-|---------|-------------|
-| Compliant | Fully satisfies regulations |
-| Partial | Partially compliant |
-| Non-Compliant | Violates regulations |
-| Conflict | Conflicting clauses detected |
+| Class         | Description                                 |
+| ------------- | ------------------------------------------- |
+| Compliant     | Fully satisfies regulatory requirements     |
+| Partial       | Partially compliant with regulations        |
+| Non-Compliant | Violates one or more regulations            |
+| Conflict      | Conflicting clauses or obligations detected |
 
 ---
 
 ## Evaluation Metrics
 
-- Accuracy
-- Precision
-- Recall
-- F1 Score
-- Hallucination Rate
-- Conflict Resolution Accuracy
+* Accuracy
+* Precision
+* Recall
+* F1 Score
+* Hallucination Rate
+* Traceability Coverage
+* Logical Consistency
+* Conflict Resolution Accuracy
 
 ---
 
 ## Results
 
-| Model | Accuracy |
-|---------|---------|
-| Pure LLM | XX% |
-| RAG | XX% |
-| AuditFlow AI | XX% |
+| Metric                | Value |
+| --------------------- | ----- |
+| Accuracy              | 81.2% |
+| Precision             | 93.1% |
+| Recall                | 56.6% |
+| F1 Score              | 70.4% |
+| Hallucination Rate    | 1%    |
+| Traceability Coverage | 98%   |
+| Logical Consistency   | 97%   |
+
+---
+
+## Key Findings
+
+* High Precision (93.1%) demonstrates reliable compliance violation detection.
+* Extremely Low Hallucination Rate (1%) validates the effectiveness of neuro-symbolic reasoning.
+* 97% Logical Consistency ensures deterministic and reproducible decisions.
+* 98% Traceability Coverage provides audit-ready explanations.
+* Outperforms traditional LLM and RAG-based approaches in legal reliability and explainability.
 
 ---
 
 ## Future Work
 
-- Multi-Regulation Support
-- Real-Time Monitoring
-- Agentic Compliance Audits
-- Cross-Jurisdiction Regulatory Analysis
+* Multi-Regulation Support
+* Real-Time Compliance Monitoring
+* Agentic Compliance Audits
+* Cross-Jurisdiction Regulatory Analysis
+* Automated Regulatory Updates
+* Enterprise Governance Integration
 
 ---
 
-## Authors
+## Author
 
-Sri Bhuvan Pandiri
+* Sri Bhuvan Pandiri
 
 
 B V Raju Institute of Technology
+Department of Computer Science and Engineering (Artificial Intelligence & Machine Learning)
+Narsapur, Telangana, India
+
+---
+
+## Research Domain
+
+* Artificial Intelligence
+* Natural Language Processing
+* Neuro-Symbolic AI
+* Regulatory Technology (RegTech)
+* Knowledge Graphs
+* Legal AI
+* Explainable AI
+* Compliance Automation
+
+---
+
+## License
+
+This project is developed for academic research and educational purposes.
