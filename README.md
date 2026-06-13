@@ -37,7 +37,7 @@ to automatically detect compliance violations, policy gaps, conflicts, and gener
 
 ## System Architecture
 
-<img width="2091" height="3141" alt="image" src="https://github.com/user-attachments/assets/07869261-5373-4fc9-bc4f-596a8752a65f" />
+<img width="1024" height="1536" alt="WhatsApp Image 2026-06-13 at 12 40 31" src="https://github.com/user-attachments/assets/8d0ae65f-ff98-4ab5-b995-aa1feb061781" />
 
 
 ---
