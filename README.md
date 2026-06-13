@@ -1,6 +1,4 @@
-
-# AuditFlow AI
-# AuditFlow AI NLP-Based Regulatory Interpretation and Policy Gap Detection System
+# AuditFlowAI: An NLP-Based Regulatory Interpretation and Policy Gap Detection System
 
 AuditFlow AI is a Neuro-Symbolic Regulatory Compliance System that combines:
 
