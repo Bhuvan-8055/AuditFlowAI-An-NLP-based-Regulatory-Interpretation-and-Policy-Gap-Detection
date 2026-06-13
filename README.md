@@ -37,7 +37,8 @@ to automatically detect compliance violations, policy gaps, conflicts, and gener
 
 ## System Architecture
 
-[Insert Architecture Image]
+<img width="2091" height="3141" alt="image" src="https://github.com/user-attachments/assets/07869261-5373-4fc9-bc4f-596a8752a65f" />
+
 
 ---
 
@@ -134,8 +135,6 @@ Digital Personal Data Protection Rules
 ## Authors
 
 Sri Bhuvan Pandiri
-Vaishnavi Vemula
-Uppela Sreeja
-Dr. G. Uday Kiran
+
 
 B V Raju Institute of Technology
